@@ -1,0 +1,40 @@
+[global_config]
+  enabled_plugins = TestPlugin, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  title_inactive_bg_color = "#657b83"
+  title_transmit_bg_color = "#dc322f"
+  #window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      directory = /home/tyler/
+      parent = window0
+      profile = Solarized Dark
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      #size = 1720, 1440
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#002b36"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#93a1a1"
+    foreground_color = "#93a1a1"
+    palette = "#002b36:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#93a1a1:#657b83:#dc322f:#859900:#b58900:#268bd2:#6c71c4:#2aa198:#fdf6e3"
+  [[Solarized Dark]]
+    allow_bold = False
+    background_color = "#00002B2B3636"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#9393a1a1a1a1"
+    font = Consolas NF 16
+    foreground_color = "#838394949696"
+    palette = "#070736364242:#DCDC32322F2F:#858599990000:#B5B589890000:#26268B8BD2D2:#D3D336368282:#2A2AA1A19898:#EEEEE8E8D5D5:#00002B2B3636:#CBCB4B4B1616:#58586E6E7575:#65657B7B8383:#838394949696:#6C6C7171C4C4:#9393A1A1A1A1:#FDFDF6F6E3E3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
